@@ -13,14 +13,11 @@ pipeline {
         }
         stage('Generar Documentación') {
             steps {
-                // Crear la carpeta /opt/docs si no existe y darle permisos
                 sh 'sudo mkdir -p /opt/docs && sudo chmod 777 /opt/docs'
                 
-                // Cambiar al directorio src y generar la documentación HTML con pydoc
                 sh 'cd src && python3 -m pydoc -w main'
                 
-                // Mover el archivo HTML generado (documentacion.html) a la carpeta /opt/docs
-                sh 'sudo mv src/main.html /opt/docs/trivia.html'
+                sh 'sudo mv src/main.html /var/www/html/documentins/trivia.html'
             }
         }
     }
