@@ -1,3 +1,8 @@
+''' 
+This module contains functions to load questions from a CSV file, 
+choose random questions, and ask questions to the user.
+'''
+
 import csv
 import random
 

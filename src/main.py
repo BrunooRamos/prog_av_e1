@@ -1,3 +1,8 @@
+'''
+This is the main file of the trivia game.
+It imports the necessary functions from the functions.py file and the List class from the list_monad.py file.
+'''
+
 from functions import load_questions, choose_questions, ask_question
 from list_monad import List
 from functools import reduce
