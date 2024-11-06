@@ -20,7 +20,7 @@ pipeline {
                 sh 'python3 -m pydoc -w main'
                 
                 // Mover el archivo HTML generado a la carpeta /opt/docs
-                sh 'sudo mv main.html /opt/docs/trivia.html'
+                sh 'sudo mv documentacion.html /opt/docs/trivia.html'
             }
         }
     }
