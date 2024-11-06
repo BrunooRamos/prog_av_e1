@@ -3,10 +3,10 @@ import unittest
 
 class TestListMonad(unittest.TestCase):
 
-    #def test_initialization_with_value(self):
+    def test_initialization_with_value(self):
         # Caso en el que se inicializa con un valor
-        #list_instance = List(10)
-        #self.assertEqual(list_instance.value, 10)
+        list_instance = List(10)
+        self.assertEqual(list_instance.value, 10)
 
     def test_initialization_without_value(self):
         # Caso en el que se inicializa sin un valor
