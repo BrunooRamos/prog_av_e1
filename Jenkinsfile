@@ -36,10 +36,11 @@ pipeline {
 
 La documentación ha sido generada exitosamente y el archivo trivia.html ha sido generado y movido a la ubicación correspondiente.
 
+Puede ver la documentación correspondiente en este enlace: http://34.227.68.157/trivia
+
 Saludos,
 Jenkins
                 ''',
-                attachmentsPattern: '**/documentins/trivia.html'
             )
         }
         
@@ -51,6 +52,8 @@ Jenkins
                 body: '''Hola Bruno,
 
 Hubo un problema durante la generación de la documentación. Revisa el log de Jenkins para más detalles.
+
+Puede ver la documentación anterior en este enlace: http://34.227.68.157/trivia
 
 Saludos,
 Jenkins
