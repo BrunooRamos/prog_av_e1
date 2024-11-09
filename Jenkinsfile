@@ -39,7 +39,7 @@ La documentación ha sido generada exitosamente y el archivo trivia.html ha sido
 Saludos,
 Jenkins
                 ''',
-                attachFiles: '/var/www/html/documentins/trivia.html'
+                attachmentsPattern: '/var/www/html/documentins/trivia.html'
             )
         }
         
