@@ -13,6 +13,7 @@ def play_trivia():
     This function is the main function of the trivia game.
     It loads the questions from the csv file, selects 5 random questions, 
     asks them to the user and prints the final score.
+    Este es el trabajo de trivia
     '''
 
     results = List(load_questions('trivia_questions.csv')).bind(choose_questions).bind(lambda selected_questions: map(ask_question, selected_questions)).value
